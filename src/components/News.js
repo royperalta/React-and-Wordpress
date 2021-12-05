@@ -24,8 +24,8 @@ export class News extends Component {
 
         if(isLoaded){
             return (
-                <p>{noticiasMundo.map(car => 
-                (<NewsItem key={car.id} noticiasMundo={car}><br></br></NewsItem>)
+                <p>{noticiasMundo.map(noticia => 
+                (<NewsItem key={noticia.id} noticiasMundo={noticia}><br></br></NewsItem>)
                 )}</p>
              )
         }
